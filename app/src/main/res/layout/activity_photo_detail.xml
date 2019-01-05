@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yichuizi.tiktik.view.DetailFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:transitionName="share"/>
+</com.yichuizi.tiktik.view.DetailFrameLayout>
